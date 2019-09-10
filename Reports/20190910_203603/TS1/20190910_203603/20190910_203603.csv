@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1,,,,2019-09-10 20:36:15,2019-09-10 20:36:16,1.302s,INCOMPLETE
+,,,,,,,
+Test Cases/TC1,,,,2019-09-10 20:36:16,2019-09-10 20:36:16,0.691s,ERROR
+openBrowser(),,,,2019-09-10 20:36:16,2019-09-10 20:36:16,0.045s,PASSED

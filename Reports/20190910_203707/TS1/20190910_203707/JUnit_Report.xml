@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TS1" time="1" tests="0" failures="0" errors="1">
+    <testsuite name="TS1" tests="0" failures="0" errors="1" time="1" timestamp="2019-09-10 20:37:17" hostname="Adam - LAPTOP-8J9O2AR9" id="Test Suites/TS1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Adam\\git\\KatalonRepo2\\Reports\\20190910_203707\\TS1\\20190910_203707"/>
+            <property name="logFiles" value="C:\\Users\\Adam\\git\\KatalonRepo2\\Reports\\20190910_203707\\TS1\\20190910_203707\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Adam - LAPTOP-8J9O2AR9"/>
+            <property name="hostAddress" value="192.168.43.68"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/TC1" classname="Test Cases/TC1" status="ERROR">
+            <error type="ERROR" message="Test Cases/TC1 FAILED.&#xA;Reason:&#xA;org.codehaus.groovy.runtime.metaclass.MethodSelectionException: Could not find which method openBrowser() to invoke from this list:&#xA;  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String)&#xA;  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)&#xD;&#xA;&#x9;at TC1.run(TC1:16)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1568140627536.run(TempTestSuite1568140627536.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-09-10 20:37:18 - [TEST_CASE][ERROR] - Test Cases/TC1: Test Cases/TC1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MethodSelectionException: Could not find which method openBrowser() to invoke from this list:
+  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String)
+  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)&#xD;
+	at TC1.run(TC1:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1568140627536.run(TempTestSuite1568140627536.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-09-10 20:37:18 - [TEST_STEP][PASSED] - openBrowser(): null</system-out>
+            <system-err>2019-09-10 20:37:18 - [TEST_CASE][ERROR] - Test Cases/TC1: Test Cases/TC1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MethodSelectionException: Could not find which method openBrowser() to invoke from this list:
+  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String)
+  public static void com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords#openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)&#xD;
+	at TC1.run(TC1:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1568140627536.run(TempTestSuite1568140627536.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-09-10 20:37:17 - [TEST_SUITE][INCOMPLETE] - TS1: null</system-out>
+        <system-err>2019-09-10 20:37:17 - [TEST_SUITE][INCOMPLETE] - TS1: null</system-err>
+    </testsuite>
+</testsuites>
